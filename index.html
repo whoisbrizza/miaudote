@@ -5,18 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Miaudote - ONG dedicada ao resgate, cuidado e adoção de gatinhos de rua.">
   <title>Miaudote | Ajudando Gatinhos de Rua</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <img src="assets/images/logo.png" alt="Logo Miaudote" width="180">
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <nav class="site-nav" aria-label="Navegação principal">
+    <a class="brand" href="index.html" aria-label="Miaudote - voltar ao início">
+      <img src="assets/images/logo.png" alt="Logo Miaudote" width="160">
+    </a>
+
+    <!-- Botão Hambúrguer -->
+    <button id="nav-toggle" class="nav-toggle" aria-controls="nav-list" aria-expanded="false" aria-label="Abrir menu">
+      <span class="hamburger">
+        <span class="bar bar-1"></span>
+        <span class="bar bar-2"></span>
+        <span class="bar bar-3"></span>
+      </span>
+    </button>
+
+    <!-- Lista de navegação -->
+    <ul id="nav-list" class="nav-list">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="projetos.html">Projetos</a></li>
+      <li><a href="cadastro.html">Cadastro</a></li>
+    </ul>
+  </nav>
+</header>
+
 
   <main>
     <section>

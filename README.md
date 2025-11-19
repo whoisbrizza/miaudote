@@ -49,13 +49,21 @@ https://whoisbrizza.github.io/miaudote/
 ## 📂 Estrutura do Projeto:
 
 miaudote/
+
 │
+
 ├── assets/
+
 │ └── images/
+
 │
+
 ├── index.html
+
 ├── cadastro.html
+
 ├── projetos.html
+
 └── README.md
 
 ---
